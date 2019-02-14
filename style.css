@@ -23,7 +23,7 @@ h1 {
   margin-left: 5%; I DONT KNOW WTF THIS DOES!!
 } */
 
-.top-header {
+.top-logo {
   padding: 5%;
 }
 
@@ -85,6 +85,9 @@ footer h1 {
     font-family: 'Cedarville Cursive', cursive;
     font-size: 4rem;
 }
+.bottom-logo {
+  padding-left: 3%;
+}
 footer a {
   display: block;
   font-family: 'Montserrat', sans-serif;
@@ -107,7 +110,7 @@ footer p {
 .copyright {
   margin-top: 5%;
   /* making him move a bit further down */
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
