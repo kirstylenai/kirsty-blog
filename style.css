@@ -1,0 +1,116 @@
+/* CSS RESET  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header {
+  background-color: rgba(0,0,0,0);
+  position: fixed;
+  top:0;
+  left:1rem;
+  right: 1rem;
+} */
+h1 {
+  color: black;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 5rem;
+  /* margin-left: 5%; */
+}
+/* [class*=col-] .top-header {
+  margin-left: 5%; I DONT KNOW WTF THIS DOES!!
+} */
+
+.top-header {
+  padding: 5%;
+}
+
+.nav-bar-top {
+  text-align: right;
+}
+
+
+[class*=col-].nav-bar-top {
+  align-self: auto;
+}
+header .nav-bar-top a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  padding: 2%;
+  /* margin-right: 2%; */
+}
+/* header hr {
+  width: 95%;
+  margin: 5% auto;
+  margin-bottom: 1%;
+} */
+.nav-bar {
+  text-align: center;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background-color: #F8E3D8;
+  padding: 1.5%;
+}
+.nav-bar a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: black;
+  padding: 2%;
+}
+
+.top-banner-image {
+  background-image: url("images/sunset.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+  margin: 5% 0;
+}
+
+
+
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+
+footer h1 {
+    color: black;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 4rem;
+}
+footer a {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  padding: 2%;
+}
+footer hr {
+  width: 20%;
+  margin: 5% 0;
+}
+.footer-titles {
+  text-align: left;
+}
+footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+.copyright {
+  margin-top: 5%;
+  /* making him move a bit further down */
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  background-color: #F8E3D8;
+
+}
