@@ -4,39 +4,51 @@ title: KIRSTY LENAI - Home
 recent: fuck
 ---
 <!-- this is the content -->
-{% for post in site.posts %}
+{% for post in site.categories.['The Daily Grind'] limit:1 %}
 
-    <div class="col-6">
-      <div class="feature-image" style="background-image: url('{{post.feature-image}}');">
+<div class="col-6">
+  <div class="feature-image" style="background-image: url('{{post.feature-image}}');">
+  </div>
+  <p> {{post.category replace "-", " "}} </p>
+  <h3> {{post.post-name}} </h3>
+  <p> {{post.date | date_to_long_string }} </p>
+  <p> {{post.description}} </p>
+  <a href="{{post.url}}" class="button"> READ POST </a>
 </div>
-      <p> {{post.category}} </p>
-      <h3> {{post.post-name}} </h3>
-      <p> {{post.date | date_to_long_string }} </p>
-      <p> {{post.description}} </p>
-      <a href="{{post.url}}" class="button"> READ POST </a>
-    </div>
 {% endfor %}
-    <!-- <div class="col-6">
-      <div> </div>
-      <p> Category Title </p>
-      <h3> Blog Heading </h3>
-      <p> Date </p>
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-      <a href="#" class="button"> READ POST </a>
-    </div>
-    <div class="col-6">
-      <div> </div>
-      <p> Category Title </p>
-      <h3> Blog Heading </h3>
-      <p> Date </p>
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-      <a href="#" class="button"> READ POST </a>
-    </div>
-    <div class="col-6">
-      <div> </div>
-      <p> Category Title </p>
-      <h3> Blog Heading </h3>
-      <p> Date </p>
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-      <a href="#" class="button"> READ POST </a>
-    </div> -->
+{% for post in site.categories.['Health & Wellness'] limit:1 %}
+
+<div class="col-6">
+  <div class="feature-image" style="background-image: url('{{post.feature-image}}');">
+  </div>
+  <p> {{post.category replace "-", " "}} </p>
+  <h3> {{post.post-name}} </h3>
+  <p> {{post.date | date_to_long_string }} </p>
+  <p> {{post.description}} </p>
+  <a href="{{post.url}}" class="button"> READ POST </a>
+</div>
+{% endfor %}
+{% for post in site.categories.['Oh The Places You Will Go'] limit:1 %}
+
+<div class="col-6">
+  <div class="feature-image" style="background-image: url('{{post.feature-image}}');">
+  </div>
+  <p> {{post.category replace "-", " "}} </p>
+  <h3> {{post.post-name}} </h3>
+  <p> {{post.date | date_to_long_string }} </p>
+  <p> {{post.description}} </p>
+  <a href="{{post.url}}" class="button"> READ POST </a>
+</div>
+{% endfor %}
+{% for post in site.categories.['Feeling Inspired'] limit:1 %}
+
+<div class="col-6">
+  <div class="feature-image" style="background-image: url('{{post.feature-image}}');">
+  </div>
+  <p> {{post.category replace "-", " "}} </p>
+  <h3> {{post.post-name}} </h3>
+  <p> {{post.date | date_to_long_string }} </p>
+  <p> {{post.description}} </p>
+  <a href="{{post.url}}" class="button"> READ POST </a>
+</div>
+{% endfor %}

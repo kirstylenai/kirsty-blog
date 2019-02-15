@@ -108,6 +108,23 @@ p {
   margin: 4% auto;
   /* only did 4% to space things out */
 }
+.about h6 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+}
+.about-blurb-title {
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaa;
+}
+.about-blurb {
+  font-weight: 200;
+  font-style: italic;
+}
+
 .feature-image {
   background-position: center;
   background-size: cover;
