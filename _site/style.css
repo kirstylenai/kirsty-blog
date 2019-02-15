@@ -94,12 +94,27 @@ p {
   width: 10%;
   margin: 5% auto;
 }
+.about-image {
+  background-image: url('/images/woman-sitting.jpeg');
+  background-position: center;
+  background-size: cover;
+  /* use height and width instead of min height and width for circle */
+  height: 10vw;
+  width: 10vw;
+  border: 1px solid white;
+  /* set border radius to make cirlce image */
+  border-radius: 70px;
+  /* use margin like this to center horizontally */
+  margin: 4% auto;
+  /* only did 4% to space things out */
+}
 .feature-image {
   background-position: center;
   background-size: cover;
   min-height: 25vw;
   min-width: 25vw;
 }
+
 
 .categories {
 
@@ -156,5 +171,4 @@ footer p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   background-color: #F8E3D8;
-
 }
