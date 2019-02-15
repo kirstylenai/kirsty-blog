@@ -89,6 +89,8 @@ p {
   border-radius: 10px;
   border-color: grey;
   text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 .about hr {
   width: 10%;
@@ -125,6 +127,14 @@ p {
   font-style: italic;
 }
 
+.newsletter {
+  background-color: #F8E3D8;
+  border: 1px;
+  text-align: center;
+  padding: 1.5%;
+
+}
+
 .feature-image {
   background-position: center;
   background-size: cover;
@@ -134,7 +144,8 @@ p {
 
 
 .categories {
-
+  color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .button {
