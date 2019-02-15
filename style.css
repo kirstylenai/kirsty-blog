@@ -71,12 +71,44 @@ header .nav-bar-top a {
   margin: 5% 0;
 }
 
-
-
-
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
+  font-size: 10rem
+}
+
+
+/* .about {
+  background-color: rgba(0,0,0,0);
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 1rem;
+} */
+
+
+
+
+.recent-post1 {
+  background-image: url("images/suitcase.jpeg");
+  background-position: center;
+  background-size: cover;
+  min-height: 5rem;
+}
+.recent-post2 {
+  background-image: url("images/yoga-woman.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.recent-post3 {
+  background-image: url("images/rice-paddies-morning.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.recent-post4 {
+  background-image: url("images/vintage-globe.jpeg");
+  background-position: center;
+  background-size: cover;
 }
 
 
