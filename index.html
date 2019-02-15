@@ -7,7 +7,7 @@ recent: fuck
 {% for post in site.posts %}
 
     <div class="col-6">
-      <div class="bg-image" style="background-image: url('{{post.feature-image}}');">
+      <div class="feature-image" style="background-image: url('{{post.feature-image}}');">
 </div>
       <p> {{post.category}} </p>
       <h3> {{post.post-name}} </h3>
@@ -16,7 +16,7 @@ recent: fuck
       <a href="{{post.url}}" class="button"> READ POST </a>
     </div>
 {% endfor %}
-    <div class="col-6">
+    <!-- <div class="col-6">
       <div> </div>
       <p> Category Title </p>
       <h3> Blog Heading </h3>
@@ -39,4 +39,4 @@ recent: fuck
       <p> Date </p>
       <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
       <a href="#" class="button"> READ POST </a>
-    </div>
+    </div> -->

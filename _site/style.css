@@ -94,10 +94,11 @@ p {
   width: 10%;
   margin: 5% auto;
 }
-.bg-image {
+.feature-image {
   background-position: center;
   background-size: cover;
-  min-height: 5rem;
+  min-height: 25vw;
+  min-width: 25vw;
 }
 
 .categories {
