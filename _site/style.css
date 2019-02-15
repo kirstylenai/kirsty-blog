@@ -74,7 +74,6 @@ header .nav-bar-top a {
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 10rem
 }
 
 
@@ -86,31 +85,34 @@ p {
   right: 1rem;
 } */
 
-
-
-
-.recent-post1 {
-  background-image: url("images/suitcase.jpeg");
+.about {
+  border-radius: 10px;
+  border-color: grey;
+}
+.bg-image {
   background-position: center;
   background-size: cover;
   min-height: 5rem;
 }
-.recent-post2 {
-  background-image: url("images/yoga-woman.jpeg");
-  background-position: center;
-  background-size: cover;
-}
-.recent-post3 {
-  background-image: url("images/rice-paddies-morning.jpeg");
-  background-position: center;
-  background-size: cover;
-}
-.recent-post4 {
-  background-image: url("images/vintage-globe.jpeg");
-  background-position: center;
-  background-size: cover;
+
+.categories {
+
 }
 
+.button {
+  display: inline-block;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+a:hover {
+  color: grey;
+}
+
+footer {
+  padding-top: 10%;
+}
 
 footer h1 {
     color: black;
@@ -126,7 +128,7 @@ footer a {
   font-weight: 200;
   text-decoration: none;
   color: black;
-  padding: 2%;
+  padding: 2% 0;
 }
 footer hr {
   width: 20%;
@@ -134,6 +136,7 @@ footer hr {
 }
 .footer-titles {
   text-align: left;
+  font-size: 1rem;
 }
 footer p {
   font-family: 'Montserrat', sans-serif;
