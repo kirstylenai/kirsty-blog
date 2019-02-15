@@ -88,6 +88,11 @@ p {
 .about {
   border-radius: 10px;
   border-color: grey;
+  text-align: center;
+}
+.about hr {
+  width: 10%;
+  margin: 5% auto;
 }
 .bg-image {
   background-position: center;
