@@ -9,4 +9,7 @@ layout: default
   <a href="{{ post.category-link }}"><p class="post-category"> {{page.categories}} </p></a>
   <p class="summary"><span class="date">{{ page.date | date: '%B %d, %Y' }}</span></p>
    {{ content }}
+
+   {% include social-share.html %}
+
 </div>

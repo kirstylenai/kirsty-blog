@@ -27,11 +27,26 @@ h1 {
 .top-logo {
   padding: 5%;
 } */
-
+body {
+  font-family: 'Montserrat';
+}
 
 header > a {
   text-decoration: none;
 }
+
+nav a {
+  display:inline-block;
+}
+
+.nav-bar-top a:hover {
+  border-bottom:1px solid #F8E3D8;
+}
+
+.nav-bar a:hover {
+  border-bottom:1px solid grey;
+}
+
 
 .nav-bar-top {
   text-align: right;
@@ -56,17 +71,15 @@ header .nav-bar-top a {
 } */
 .nav-bar {
   text-align: center;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
   background-color: #F8E3D8;
-  padding: 1.5%;
+  padding: 1%;
 }
 .nav-bar a {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   color: black;
-  padding: 2%;
+  padding:0.5rem 1rem;
 }
 
 .top-banner-image {
@@ -75,6 +88,13 @@ header .nav-bar-top a {
   background-size: cover;
   min-height: 50vh;
   margin: 5% 0;
+  padding: 5%;
+}
+
+.top-banner-image h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: white;
 }
 
 p {
@@ -269,6 +289,9 @@ a:hover {
   width: 20%;
   margin: 2% auto;
   text-align: center;
+  margin-bottom: -2rem;
+  position: relative;
+  z-index: 10;
 }
 
 .footer-social-handle a:hover {
