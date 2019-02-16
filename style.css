@@ -134,6 +134,18 @@ p {
   padding: 1.5%;
 
 }
+.newsletter input {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  /* font-size: */
+  padding: 4%;
+  display: block;
+  margin: auto;
+  width: 70%;
+  /* min-height: 10vh; */
+  font-size: 10px;
+
+}
 
 .feature-image {
   background-position: center;
@@ -152,7 +164,11 @@ p {
   display: inline-block;
   color: black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 15px;
+  width: 70%;
+  padding: 4%;
+  margin: auto;
+  /* min-height: 10vh; */
 }
 
 a:hover {
