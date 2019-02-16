@@ -1,0 +1,14 @@
+---
+layout: default
+title: Kirsty Lenai - The Daily Grind
+
+---
+
+
+
+<!-- this is the daily grind latest featured post  -->
+{% for post in site.categories.['The Daily Grind'] limit:10 %}
+
+  {% include post-box.html %}
+
+{% endfor %}

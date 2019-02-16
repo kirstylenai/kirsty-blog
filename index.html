@@ -1,54 +1,28 @@
 ---
 layout: default
 title: KIRSTY LENAI - Home
-recent: fuck
 ---
-<!-- this is the content -->
+<!-- this is the daily grind latest featured post  -->
 {% for post in site.categories.['The Daily Grind'] limit:1 %}
-
-<div class="col-6">
-  <div class="feature-image" style="background-image: url('{{post.feature-image}}');">
-  </div>
-  <p> {{post.category replace "-", " "}} </p>
-  <h3> {{post.post-name}} </h3>
-  <p> {{post.date | date_to_long_string }} </p>
-  <p> {{post.description}} </p>
-  <a href="{{post.url}}" class="button"> READ POST </a>
-</div>
+  {% include post-box.html %}
 {% endfor %}
+
+
+<!-- this is the health and wellness  latest featured post  -->
 {% for post in site.categories.['Health & Wellness'] limit:1 %}
-
-<div class="col-6">
-  <div class="feature-image" style="background-image: url('{{post.feature-image}}');">
-  </div>
-  <p> {{post.category replace "-", " "}} </p>
-  <h3> {{post.post-name}} </h3>
-  <p> {{post.date | date_to_long_string }} </p>
-  <p> {{post.description}} </p>
-  <a href="{{post.url}}" class="button"> READ POST </a>
-</div>
+  {% include post-box.html %}
 {% endfor %}
+
+<!-- this is the oh the places you'll go latest featured post  -->
 {% for post in site.categories.['Oh The Places You Will Go'] limit:1 %}
 
-<div class="col-6">
-  <div class="feature-image" style="background-image: url('{{post.feature-image}}');">
-  </div>
-  <p> {{post.category replace "-", " "}} </p>
-  <h3> {{post.post-name}} </h3>
-  <p> {{post.date | date_to_long_string }} </p>
-  <p> {{post.description}} </p>
-  <a href="{{post.url}}" class="button"> READ POST </a>
-</div>
+  {% include post-box.html %}
+
 {% endfor %}
+
+<!-- this is the feeling inspired latest featured post  -->
 {% for post in site.categories.['Feeling Inspired'] limit:1 %}
 
-<div class="col-6">
-  <div class="feature-image" style="background-image: url('{{post.feature-image}}');">
-  </div>
-  <p> {{post.category replace "-", " "}} </p>
-  <h3> {{post.post-name}} </h3>
-  <p> {{post.date | date_to_long_string }} </p>
-  <p> {{post.description}} </p>
-  <a href="{{post.url}}" class="button"> READ POST </a>
-</div>
+  {% include post-box.html %}
+
 {% endfor %}

@@ -1,0 +1,13 @@
+---
+layout: default
+title: Kirsty Lenai - Oh The Places You Will Go
+
+---
+
+
+<!-- this is the oh the places you will go  latest featured post  -->
+{% for post in site.categories.['Oh The Places You Will Go'] limit:10 %}
+
+  {% include post-box.html %}
+
+{% endfor %}

@@ -1,0 +1,14 @@
+---
+layout: default
+title: Kirsty Lenai - Feeling Inspired
+
+---
+
+
+
+<!-- this is the feeling inspired featured post  -->
+{% for post in site.categories.['Feeling Inspired'] limit:10 %}
+
+  {% include post-box.html %}
+
+{% endfor %}

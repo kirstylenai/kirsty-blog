@@ -121,45 +121,84 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaa;
+  margin: 5% 0;
 }
 .about-blurb {
   font-weight: 200;
   font-style: italic;
+  margin: 5% 0;
 }
 
 .newsletter {
   background-color: #F8E3D8;
   border: 1px;
   text-align: center;
-  padding: 1.5%;
-
+  padding: 8% 1%;
+  margin-top: 20%;
 }
 .newsletter input {
   font-family: 'Montserrat', sans-serif;
   color: grey;
   /* font-size: */
-  padding: 4%;
+  padding: 5%;
   display: block;
-  margin: auto;
-  width: 70%;
+  margin: 2% auto;
+  width: 72%;
   /* min-height: 10vh; */
   font-size: 10px;
+}
+/* add space between selectors to do parent child, no spaces for same element */
+input[type='submit'] {
+  transition: 0.5s all;
+  font-size: 1rem;
+  font-weight: 200;
+  background-color: #fffffff2;
+  color: #84817a;
+}
+input[type='submit']:hover {
+  background-color: #84817a;
+  color: white;
+}
+
+/* Post excerpt box */
+.post-box .feature-image {
 
 }
 
+.post-box h3 {
+
+}
+
+.post-box .post-categories {
+
+}
+
+.post-box .post-date {
+
+}
+
+.post-box .post-description {
+
+}
+
+.button {
+
+}
+
+
+/* blog category recent posts */
 .feature-image {
   background-position: center;
   background-size: cover;
   min-height: 25vw;
   min-width: 25vw;
 }
-
-
 .categories {
   color: black;
   font-family: 'Montserrat', sans-serif;
 }
 
+/* read post button */
 .button {
   display: inline-block;
   color: black;
@@ -168,7 +207,7 @@ p {
   width: 70%;
   padding: 4%;
   margin: auto;
-  /* min-height: 10vh; */
+  border: 1px solid grey;
 }
 
 a:hover {
@@ -178,7 +217,9 @@ a:hover {
 footer {
   padding-top: 10%;
 }
-
+.grid-spaceAround {
+  padding-top: 5%;
+}
 footer h1 {
     color: black;
     font-family: 'Cedarville Cursive', cursive;

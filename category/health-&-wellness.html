@@ -1,0 +1,13 @@
+---
+layout: default
+title: Kirsty Lenai - Health & Wellness
+
+---
+
+
+<!-- this is the health and wellness  latest featured post  -->
+{% for post in site.categories.['Health & Wellness'] limit:10 %}
+
+  {% include post-box.html %}
+
+{% endfor %}
