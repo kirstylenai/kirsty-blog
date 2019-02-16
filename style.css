@@ -17,15 +17,18 @@ h1 {
   color: black;
   font-family: 'Cedarville Cursive', cursive;
   font-size: 5rem;
-  /* margin-left: 5%; */
+  margin: 5% 0;
 }
 /* [class*=col-] .top-header {
   margin-left: 5%; I DONT KNOW WTF THIS DOES!!
 } */
 
-/* .top-logo {
+/* not sure why i would keep this??
+.top-logo {
   padding: 5%;
 } */
+
+
 header > a {
   text-decoration: none;
 }
@@ -316,3 +319,7 @@ footer p {
   font-weight: 400;
   background-color: #F8E3D8;
 }
+
+
+
+/* <--- BLOG POSTS---> */

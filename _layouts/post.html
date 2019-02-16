@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1>{{ page.post-name }}</h1>
+<!-- background image goes here. make a class for image settings, use style attribute to change url -->
+<!-- <div>feature-image</div> -->
+
+<div class="blog-post spacing">
+  <a href="{{ post.category-link }}"><p class="post-category"> {{page.categories}} </p></a>
+  <p class="summary"><span class="date">{{ page.date | date: '%B %d, %Y' }}</span></p>
+   {{ content }}
+</div>
