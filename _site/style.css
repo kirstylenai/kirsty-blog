@@ -14,7 +14,7 @@
   right: 1rem;
 } */
 
-
+/* HEADER */
 .top-logo {
   color: black;
   font-family: 'Cedarville Cursive', cursive;
@@ -29,13 +29,10 @@ h1 {
   margin-left: 5%; I DONT KNOW WTF THIS DOES!!
 } */
 
-/* not sure why i would keep this??
-.top-logo {
-  padding: 5%;
-} */
 body {
   font-family: 'Montserrat';
 }
+
 
 header > a {
   text-decoration: none;
@@ -53,11 +50,9 @@ nav a {
   border-bottom:1px solid grey;
 }
 
-
 .nav-bar-top {
   text-align: right;
 }
-
 
 [class*=col-].nav-bar-top {
   align-self: auto;
@@ -70,6 +65,7 @@ header .nav-bar-top a {
   padding: 2%;
   /* margin-right: 2%; */
 }
+
 /* header hr {
   width: 95%;
   margin: 5% auto;
@@ -87,7 +83,11 @@ header .nav-bar-top a {
   color: black;
   padding:0.5rem 1rem;
 }
+/* HEADER END */
 
+
+
+/* TOP BANNER IMAGE */
 .top-banner-image {
   /* background-image: url("images/sunset.jpg"); */
   background-position: center;
@@ -96,22 +96,19 @@ header .nav-bar-top a {
   margin: 5% 0;
   padding: 5%;
 }
-
 .top-banner-image h2 {
   font-size: 2rem;
   font-weight: normal;
   color: white;
 }
-.oh-the {
-  font-size: 1rem;
-}
+/* TOP BANNER IMAGE END */
 
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
 }
 
-
+/* ABOUT SIDEBAR */
 /* .about {
   background-color: rgba(0,0,0,0);
   position: fixed;
@@ -194,13 +191,18 @@ input[type='submit']:hover {
   background-color: #84817a;
   color: white;
 }
+/* ABOUT SIDEBAR END */
+
+
 
 /* Post excerpt box */
-.post-box .feature-image {
 
+/* .post-box .feature-image {
+} */
+
+.blog-post-image{
+  height: 25vw;
 }
-
-
 .post-box .post-category {
   font-size: 13px;
   white-space: nowrap;
@@ -275,6 +277,8 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+/* FOOTER */
 .footer-social-handle a {
   font-size: 15px;
   line-height: 1.5rem;
@@ -342,6 +346,10 @@ footer hr {
   text-align: left;
   font-size: 1rem;
 }
+/* to target the 'ohtheplaces' link */
+.oh-the {
+  font-size: 1rem;
+}
 footer p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
@@ -355,19 +363,84 @@ footer p {
   font-weight: 400;
   background-color: #F8E3D8;
 }
-
+/* FOOTER END */
 
 
 /* <--- BLOG POSTS---> */
 
 .h1-blog-post {
-  margin-left: 5%;
-}
+  /* margin-left: 5%; */
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 
+}
+.blog-post-title{
+  text-align: center;
+  /* line-height: 50px; */
+}
+/* this is title */
+.blog-post-title h1{
+  text-align: center;
+  margin: 4% 0;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+/* this is category */
+.blog-post-title a{
+  text-decoration: none;
+  font-size: 13px;
+  white-space: nowrap;
+  font-style: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-align: center;
+  margin: 3% 0% 0 0;
+}
+/* this is date */
+.blog-post-title p{
+  font-size: 11px;
+  white-space: nowrap;
+  font-style: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-align: center;
+  margin: 2% 0;
+}
+.blog-post-feature-image {
+  margin: 0 auto;
+}
 .blog-post {
-  margin-left: 5%;
+  /* margin-left: 5%; */
   padding: 1%;
 }
+.blog-post.spacing {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-align: center;
+  margin: 2% 0;
+  font-size: 1rem;
+}
+
+/* SOCIAL SHARE */
+.social-share h4 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+.social-share a {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.social-share a:hover {
+  color: grey;
+]
+/* SOCIAL SHARE END */
 
 /* ----------------- */
 /* Media Query means settings only apply when screen shrinks to the smaller size - has to stay at bottom so does not interfere with any other specificity */

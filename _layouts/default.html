@@ -37,13 +37,15 @@
       <a href="/category/feeling-inspired"> FEELING INSPIRED </a>
     </nav>
   </header>
+  {% if page.banner_image %}
   <section class="top-banner-image" style="background-image:url('{{page.banner_image}}');">
-    <h2> {{page.heading}}</h2>
+
   </section>
+  {%endif%}
 
   <section class="grid-spaceAround">
     <div class="categories col-8_sm-12 grid">
-
+    <h2> {{page.heading}}</h2>
       {{content}} <!-- This is where the main content goes and will change on each page. -->
     </div>
     <div class="about col-3_sm-12">
@@ -65,7 +67,7 @@
             <input type="submit" value="Sign Up">
           </form>
       </div>
-
+      </div>
   </section>
 
 

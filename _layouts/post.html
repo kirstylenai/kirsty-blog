@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
-<h1 class="h1-blog-post">{{ page.post-name }}</h1>
+<div class="blog-post-title col-12">
+  <a href="{{ page.category-link }}"><p class="post-category"> {{page.categories}} </p></a>
+  <h1 class="h1-blog-post">{{ page.post-name }}</h1>
+  <p class="summary"><span class="date">{{ page.date | date: '%B %d, %Y' }}</span></p>
+</div>
 <!-- background image goes here. make a class for image settings, use style attribute to change url -->
 <!-- <div>feature-image</div> -->
-
+  <div class="feature-image blog-post-feature-image" style="background-image: url('{{page.feature-image}}');"></div>
 <div class="col-12 blog-post spacing">
-  <a href="{{ post.category-link }}"><p class="post-category"> {{page.categories}} </p></a>
-  <p class="summary"><span class="date">{{ page.date | date: '%B %d, %Y' }}</span></p>
+
+
    {{ content }}
 
    {% include social-share.html %}
